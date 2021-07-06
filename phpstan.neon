@@ -1,0 +1,14 @@
+parameters:
+    paths:
+        - src
+        - tests
+        - config
+
+    level: 0
+
+    # ignoreErrors:
+
+    excludes_analyse:
+        - vendor
+
+    checkMissingIterableValueType: false
